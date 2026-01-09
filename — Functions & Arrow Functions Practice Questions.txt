@@ -1,0 +1,95 @@
+ — Functions & Arrow Functions
+1. Order Total Calculator
+
+Write a function that takes price and quantity as parameters and returns the total bill amount.
+Then rewrite the same using an arrow function.
+
+2. Age Validator
+
+Create a function that accepts age and returns:
+
+"Eligible to vote" if age ≥ 18
+
+"Not eligible" otherwise.
+
+3. Discount Finder
+
+Write a function that takes originalPrice and discountPercent and returns the final price after discount.
+
+4. Username Formatter
+
+Create an arrow function that takes firstName and lastName and returns a string like:
+"Welcome, John Doe!"
+
+5. Temperature Converter
+
+Write a function that converts Celsius to Fahrenheit and returns the result.
+
+ — Scope & Variable Shadowing
+6. Bank Balance Scope
+
+Create a global variable balance = 5000.
+Inside a function, declare another variable balance = 2000.
+Print both values and observe variable shadowing.
+
+7. Office Login System
+
+Create a variable role = "Admin" outside a function.
+Inside the function, change role to "User" and print both values.
+Explain which one is used where.
+
+8. Counter Bug
+
+Create a variable count = 0.
+Inside a function, declare let count = 10.
+Try to increment both and check which one changes.
+
+Part C — Arrays: Creation & Access
+9. Shopping Cart
+
+Create an array cart = ["Milk", "Bread", "Eggs"].
+
+Print the first and last item
+
+Add "Butter" to the cart.
+
+10. Student List
+
+Create an array of 5 student names.
+Write a function that prints the 2nd and 4th student.
+
+ — Array Methods (Real-World Scenarios)
+11. Bus Queue System (shift)
+
+Create an array of people in a bus queue.
+Remove the first person using shift() and print the updated queue.
+
+12. Movie Ticket Line (unshift)
+
+Create an array of people waiting.
+A VIP arrives — add them at the beginning using unshift().
+
+13. Undo Feature (pop)
+
+Create an array of actions:
+["Typed text", "Bold applied", "Image added"]
+Remove the last action using pop().
+
+14. Notification System (push)
+
+Create an empty array notifications.
+Add 3 notifications using push() and print the array.
+
+15. Chat Application Queue
+
+Create an array messages = ["Hi", "How are you?", "Bye"]
+Perform these steps:
+
+Add "Welcome" at the end
+
+Remove the first message
+
+Add "Admin joined" at the start
+
+Remove the last message
+Print the final messages list.
