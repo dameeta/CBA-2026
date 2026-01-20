@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Keyup Event example</title>
+  </head>
+  <body>
+    <input type="text" id="name" placeholder="Type name here"/>
+    <script>
+      document.getElementById("name").addEventListener("keyup",function(){
+        console.log("You have entered:", this.value);
+      });
+    </script>
+  </body>
+</html>

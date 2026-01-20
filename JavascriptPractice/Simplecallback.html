@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Callback Example</title>
+  </head>
+  <body>
+    <script>
+      function greet(name,c){
+        console.log("Hello" + name);
+        c();
+      }
+      function sayHello()
+      {
+        console.log("Hello Good Evening!!");
+      }
+      greet("Krish",sayHello);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,162 @@
+Arrays
+1. Which is the correct way to create an array?
+
+A. let arr = (1,2,3)
+B. let arr = [1,2,3]
+C. let arr = {1,2,3}
+D. let arr = "1,2,3"
+
+2. What will arr[0] return for let arr = ["A","B","C"]?
+
+A. "A"
+B. "B"
+C. "C"
+D. undefined
+
+3. Which method adds an element at the end of an array?
+
+A. push()
+B. pop()
+C. shift()
+D. unshift()
+
+4. Which method removes the last element?
+
+A. push()
+B. pop()
+C. shift()
+D. splice()
+
+5. Which method adds an element at the beginning?
+
+A. push()
+B. pop()
+C. shift()
+D. unshift()
+
+6. Which method removes the first element?
+
+A. push()
+B. pop()
+C. shift()
+D. unshift()
+
+7. What does splice() do?
+
+A. Copies part of an array
+B. Removes or adds elements in an array
+C. Only removes last element
+D. Only adds elements
+
+8. What does slice() return?
+
+A. Modified original array
+B. New array with selected elements
+C. Single element
+D. Boolean value
+
+9. Which loop is best for iterating arrays?
+
+A. if
+B. while
+C. for
+D. switch
+
+10. Which method creates a new array after transforming each element?
+
+A. forEach()
+B. map()
+C. filter()
+D. reduce()
+
+🔹 Objects
+11. How do you create an object?
+
+A. let obj = []
+B. let obj = {}
+C. let obj = ()
+D. let obj = <>
+
+12. How do you access property name from object user?
+
+A. user[name]
+B. user."name"
+C. user.name
+D. user->name
+
+13. Which notation is required when property name has spaces?
+
+A. Dot notation
+B. Bracket notation
+C. Both
+D. None
+
+14. What will this return?
+let obj = { a: 10, b: 20 };
+Object.keys(obj);
+
+
+A. [10,20]
+B. ["a","b"]
+C. {a,b}
+D. "a,b"
+
+15. What does Object.values() return?
+
+A. Property names
+B. Property values
+C. Object length
+D. Boolean
+
+16. How do you access city in this object?
+let person = {
+  name: "Sam",
+  address: { city: "Mumbai" }
+};
+
+
+A. person.city
+B. person.address.city
+C. person[address][city]
+D. person->city
+
+17. Which is a correct nested object?
+
+A. { a: { b: 10 } }
+B. { a, b: 10 }
+C. { a = { b: 10 } }
+D. { a -> { b: 10 } }
+
+18. Which method returns all values of an object?
+
+A. Object.keys()
+B. Object.entries()
+C. Object.values()
+D. Object.get()
+
+19. What does forEach() return?
+
+A. New array
+B. Boolean
+C. Undefined
+D. Modified array
+
+20. Which statement about map() is true?
+
+A. It changes the original array
+B. It returns a new array
+C. It returns a single value
+D. It stops after first element
+
+ Answer Key
+Q	Ans	Q	Ans
+1	B	11	B
+2	A	12	C
+3	A	13	B
+4	B	14	B
+5	D	15	B
+6	C	16	B
+7	B	17	A
+8	B	18	C
+9	C	19	C
+10	B	20	B

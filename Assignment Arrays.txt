@@ -1,0 +1,182 @@
+Arrays
+1. Creating & Accessing Arrays
+
+
+Create an array called colors with 5 color names.
+
+
+Print the first, middle, and last elements.
+
+
+
+
+Given:
+let marks = [78, 85, 90, 66, 88];
+
+Access and print the second highest mark.
+
+
+
+2. Using push(), pop(), shift(), unshift()
+
+
+Create an empty array tasks.
+
+
+Add 3 tasks using push()
+
+
+Remove the last task using pop() and display it.
+
+
+
+
+Given:
+let queue = ["A", "B", "C"];
+
+
+
+Add "Z" at the beginning
+
+
+Remove the first element and print the updated array.
+
+
+
+
+
+3. Using splice() & slice()
+
+
+Given:
+let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+
+
+
+Remove "Mango" using splice().
+
+
+
+
+From the same array, create a new array with only "Banana" and "Mango" using slice().
+
+
+Insert "Pineapple" and "Kiwi" at index 2 using splice().
+
+
+
+4. Iterating Arrays
+
+
+Use a for loop to print all elements of:
+let numbers = [10, 20, 30, 40];
+
+
+
+Use forEach() to print each student name with the message:
+"Hello <name>".
+
+
+Use map() to create a new array where each number is squared:
+
+
+let nums = [2, 4, 6, 8];
+
+
+ Objects
+5. Object Creation & Property Access
+
+
+Create an object student with properties:
+id, name, course, marks.
+
+
+
+
+Print the student name and course.
+
+
+
+6. Dot vs Bracket Notation
+
+
+Given:
+
+
+let user = {
+  name: "Ravi",
+  age: 25,
+  "home city": "Delhi"
+};
+
+
+
+Access all properties correctly.
+
+
+
+7. Nested Objects
+
+
+Create an object company with:
+
+
+company = {
+  name: "TechSoft",
+  address: {
+    city: "Bangalore",
+    pincode: 560001
+  }
+}
+
+
+
+Print the city name.
+
+
+
+8. Object.keys() & Object.values()
+
+
+Given:
+
+
+let laptop = {
+  brand: "HP",
+  price: 55000,
+  ram: "16GB"
+};
+
+
+
+Print all keys
+
+
+Print all values.
+
+
+
+9. Real-World Mini Task
+
+
+Create an array of objects called employees:
+
+
+[
+  { id: 1, name: "Amit", salary: 40000 },
+  { id: 2, name: "Neha", salary: 55000 },
+  { id: 3, name: "Ravi", salary: 60000 }
+]
+
+Tasks:
+
+
+Print all employee names using map()
+
+
+Print employees earning more than 50000
+
+
+Display all keys of the first employee object
+
+
