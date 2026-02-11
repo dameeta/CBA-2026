@@ -1,0 +1,7 @@
+Rules for jsx
+1. Must return one parent element
+2. or we can use React fragment as a return type<></>
+3. write className instead of class
+4. jsx uses camelcase for attributes
+5. use {} for inserting js expressions
+

@@ -1,0 +1,3 @@
+controlled components form element whose value value is controlled by react state
+
+Uncontrolled components will be handled through the DOM element 

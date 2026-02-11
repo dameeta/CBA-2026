@@ -1,0 +1,13 @@
+1. Mounting
+  1.static getDerivedStateFromPros(props,state)
+  2.render()
+  3.componentDidMount()
+2.Update the state(props or state change)
+  1.static getDerivedStateFromPros()
+  2.shouldComponentUpdate(nextProps,nextState)
+  3.render()
+  4.getSnapshotBeforeUpdate(prevProps,prevState)
+  5.componentDidUpdate(prevProps,prevState,snapshot)
+3.Unmount(Component removed)
+  componentWillUnmount()
+4.ErrorHandling(optional)
