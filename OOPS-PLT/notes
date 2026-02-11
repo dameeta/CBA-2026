@@ -1,0 +1,21 @@
+Class: blueprint for creating Object
+Object:real world entity,instance of Class
+Encapsulation: hiding the essential feature of a Class
+Inheritance: reusing the features of super class by inheriting the class and its properties
+Polymorphism:object is performing multiple functionalities based on the function calls and the behaviour of the object gets changed
+--Polymorphism via method overriding
+--duck typing
+-- with function
+--operator overloading
+--inheritance + super()
+
+
+Abstraction: showing the relevant features of the object and hiding the implementation details
+
+Object is a real world entity whether it exists or doesnt exist
+Pen
+pen1=reynold,ink=blue,type=ballpen ==attributes/properties
+Object has its
+Identities Properties
+behaviour functionality
+state-On off

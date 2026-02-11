@@ -1,0 +1,144 @@
+Polymorphism Exercises (1–4)
+Exercise 1: Payment System (Method Overriding)
+
+Concept: Runtime Polymorphism
+
+Problem Statement:
+Create a base class Payment with a method pay(amount).
+Create subclasses:
+
+CreditCardPayment
+
+UPIPayment
+
+CashPayment
+
+Each subclass should implement its own version of the pay() method.
+
+Task:
+
+Store different payment objects in a list
+
+Call pay(1000) using a loop
+
+Expected Learning:
+Same method call → different behavior
+
+Exercise 2: Notification System
+
+Concept: Polymorphism with same method name
+
+Problem Statement:
+Create a class Notification with a method send(message).
+Implement subclasses:
+
+EmailNotification
+
+SMSNotification
+
+PushNotification
+
+Each class should display how the message is sent.
+
+Task:
+Write a function notify_user(notification) that accepts any notification object and calls send().
+
+Exercise 3: Shape Area Calculator
+
+Concept: Polymorphism using method overriding
+
+Problem Statement:
+Create a base class Shape with method area().
+
+Subclasses:
+
+Rectangle
+
+Circle
+
+Triangle
+
+Each class calculates area differently.
+
+Task:
+Store all shape objects in a list and print their areas using one loop.
+
+Exercise 4: Employee Salary Calculation
+
+Concept: Polymorphism in business logic
+
+Problem Statement:
+Create a base class Employee with method calculate_salary().
+
+Subclasses:
+
+FullTimeEmployee
+
+PartTimeEmployee
+
+Intern
+
+Each employee type has different salary rules.
+
+ Abstraction Exercises (5–7)
+Exercise 5: Vehicle System
+
+Concept: Abstract Base Class
+
+Problem Statement:
+Create an abstract class Vehicle with:
+
+abstract method start_engine()
+
+abstract method fuel_type()
+
+Create subclasses:
+
+Car
+
+Bike
+
+ElectricScooter
+
+Task:
+Implement all abstract methods and call them via base class reference.
+
+Exercise 6: Banking System
+
+Concept: Abstraction + Polymorphism
+
+Problem Statement:
+Create an abstract class BankAccount with:
+
+deposit(amount)
+
+abstract method calculate_interest()
+
+Subclasses:
+
+SavingsAccount
+
+CurrentAccount
+
+Each subclass calculates interest differently.
+
+Exercise 7: Online Order Processing
+
+Concept: Real-world abstraction
+
+Problem Statement:
+Create an abstract class Order with:
+
+abstract method process_order()
+
+concrete method order_summary()
+
+Subclasses:
+
+FoodOrder
+
+GroceryOrder
+
+MedicineOrder
+
+Each order has its own processing logic.

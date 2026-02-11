@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Array Callback
+    </title>
+  </head>
+  <body>
+    <script>
+    let numbers = [7,4,5,8,2,1];
+    numbers.forEach(function (num){
+      console.log(num*2)
+    });
+    setTimeout(()=>{
+      console.log("First ..");
+      setTimeout(()=>{
+        console.log("Second ..");
+        setTimeout(()=>{
+          console.log("Third ..");
+        },1000);
+      },1000);
+    },1000);
+</script>
+  </body>
+</html>

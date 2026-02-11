@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Change the content dynamically</title>
+  </head>
+  <body>
+    <p id="text">Old Paragraph </p>
+    <p id="box">Hello in Box</p>
+
+    <button onclick="changeText()">Change it</button>
+    <button onclick="changeStyle()">Style</button>
+    <button id="btn">Click Here</button>
+
+    <script>
+      function changeText(){
+        document.getElementById("text").textContent = "New Paragraph";    
+      }
+      document.getElementById("btn").addEventListener(
+        "click",function(){
+          alert("Click button clicked");
+        }
+      );
+      function changeStyle(){
+        const e1=document.getElementById("box");
+        e1.style.color="green";
+        e1.style.fontSize = "20px";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator callback</title>
+ 
+    </head>
+    <body>
+        <script>
+            function Calculator(x,y,task){
+                return task(x,y);
+            }
+            function add(a,b){
+                return a + b;
+            }
+            setTimeout(function (){
+              console.log('This will print after 2 seconds');
+            },2000)
+            setTimeout(()=>{
+              console.log("Arrow function callback");
+            },1000)
+            console.log(Calculator(5,6,add));
+        </script>
+    </body>
+</html>
+ 
