@@ -1,0 +1,41 @@
+Step 1: Go to Google Cloud Console
+
+https://console.cloud.google.com/
+
+Select your project
+
+Go to APIs & Services → Credentials
+
+Step 2: Check OAuth 2.0 Client IDs
+
+Click your OAuth 2.0 Client ID
+
+Now verify:
+
+🔹 Authorized JavaScript origins
+
+Add your frontend URL:
+
+Example:
+
+http://localhost:3000
+http://localhost:5173
+https://yourdomain.com
+
+🔹 Authorized redirect URIs
+
+Add your backend callback URL:
+
+Example:
+
+http://localhost:3000/auth/google/callback
+https://yourdomain.com/auth/google/callback
+
+
+Must match EXACTLY (including http/https and trailing slash)
+
+Step 3: Verify Client ID Used in Code
+
+Make sure your frontend is using the correct Client ID:
+
+const clientId = "YOUR_WEB_CLIENT_ID.apps.googleusercontent.com";

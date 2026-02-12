@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <div>
-        {/* <FetchApiCompo/> */}
-        <AxiosCompo/>
+        <FetchApiCompo/>
+        {/* <AxiosCompo/> */}
       </div>
     </>
   )

@@ -4,30 +4,30 @@ function FetchApiCompo(){
 
 const [albums,setAlbums]=useState([]);
 //posting the data
-useEffect(()=>{
-  fetch("https://jsonplaceholder.typicode.com/albums",{
-    method:"POST",
-    headers:{
-      "Content-Type":"application/json"
-    },
-    body:JSON.stringify({
-      id:1011,
-      title: "Devotional",
-      userId: 111,
+//useEffect(()=>{
+//   fetch("https://jsonplaceholder.typicode.com/albums",{
+//     method:"POST",
+//     headers:{
+//       "Content-Type":"application/json"
+//     },
+//     body:JSON.stringify({
+//       id:1011,
+//       title: "Devotional",
+//       userId: 111,
 
-    })
-  })
-  .then(res =>res.json())
-  .then(data => console.log(data))
-  .catch(error => console.log(error));
-},[]);
-//Getting the data
-// useEffect(()=>{
-//   fetch("https://jsonplaceholder.typicode.com/albums")
-//   .then((response)=>response.json())
-//   .then((data)=> setAlbums(data))
-//   .catch((error)=>console.log(error));
+//     })
+//   })
+//   .then(res =>res.json())
+//   .then(data => console.log(data))
+//   .catch(error => console.log(error));
 // },[]);
+//Getting the data
+useEffect(()=>{
+   fetch("https://jsonplaceholder.typicode.com/albums")
+   .then((response)=>response.json())
+   .then((data)=> setAlbums(data))
+   .catch((error)=>console.log(error));
+ },[]);
 return (
   <div>
     <h2>Albums (Fetch)</h2>
